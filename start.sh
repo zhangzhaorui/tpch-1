@@ -1,10 +1,5 @@
-function test() {
-
+#!/bin/bash
  while true; do
- dd if=/dev/zero  of=/aaa/50M.file bs=1M count=50
- sleep 1
+ dd if=/dev/zero  of=/50M.file bs=1M count=50
+ sleep 5
  done
-
-}
-
-test
